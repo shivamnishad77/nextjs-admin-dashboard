@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 
 const SignIn: React.FC = () => {
   return (
-    <DefaultLayout>
-      <Breadcrumb pageName="Sign In" />
+    <div>
+      {/* <Breadcrumb pageName="Sign In" /> */}
 
       <div className="rounded-[10px] bg-white shadow-1 dark:bg-gray-dark dark:shadow-card">
         <div className="flex flex-wrap items-center">
@@ -68,7 +68,8 @@ const SignIn: React.FC = () => {
           </div>
         </div>
       </div>
-    </DefaultLayout>
+
+    </div>
   );
 };
 
